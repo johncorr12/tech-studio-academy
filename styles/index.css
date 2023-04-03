@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* navbar section */
+ul{
+    display: flex;
+    gap: 5rem;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    font-size: 2rem;
+    height: 8rem;
+
+}
+
+ .navbar a{
+    color: blue;
+    border-top: 10rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: grey;
+} 
+.ssss{
+    background-image: url('../asssets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-size: 2.7rem;
+    background-color: black;
+    color: white;
+    padding-top: 6rem;
+    
+
+}
+.ssss h1{
+    font-size: 5rem;
+
+}
+.section-1{
+    padding-top: 8rem;
+    font-size: 1.5rem;
+}
+li:hover{
+    /* text-decoration: underline; */
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+.branding{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    line-height: 1.5rem;
+}      
+
+.head-font-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 20%; */
+}
+.details{
+    text-align: end;
+} 
+.head-form{
+    color: black;
+}
+
+.hero {
+    display: flex;
+}
+.ssss p{
+    padding-top: 1.5rem;
+    font-size: 2.3rem;
+    font-weight: 900;
+    color: whitesmoke
+}
+.head-font-inner{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+.head-font{
+font-size: 2.3rem;
+padding-top: 8rem;
+}
+
+.form {
+    background-color: white;
+    padding: 2rem 2rem 5rem 2rem;
+    width: px;
+}
+
+.form .head-form {
+    font-size: 3rem;
+}
+
+.form-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3.5rem;
+}
+
+.form-1 div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-1 div input {
+    width: 47%;
+}
+
+.form-1 input,
+.form-1 a {
+    padding: 1.8rem;
+    font-size: 2rem;
+    border-radius: 1px;
+}
+
+.form-1 a {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+.section-1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-center;
+}
+
+
+
+.section-1 img{
+    border-radius: 400em;
+}
+.section-1 p{
+    font-size: 3rem;
+    padding: 1rem;
+    
+    
+    
+}
+.section-1 span{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
