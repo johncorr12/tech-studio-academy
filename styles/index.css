@@ -1,187 +1,829 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.container{
-    width: 90%;
-    margin: auto;
+.container {
+  width: 90%;
+  margin: auto;
 }
 /* navbar section */
-ul{
-    display: flex;
-    gap: 5rem;
+.navbar ul {
+  display: flex;
+  gap: 5rem;
 }
 
-
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    font-size: 2rem;
-    height: 8rem;
-
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
 }
 
- .navbar a{
-    color: blue;
-    border-top: 10rem;
-    text-decoration: none;
-    list-style: none;
+.navbar a {
+  color: blue;
+  border-top: 10rem;
+  text-decoration: none;
+  list-style: none;
+
 }
 
 .navbar a:hover {
-    text-decoration: underline;
-    color: grey;
-} 
-.ssss{
-    background-image: url('../asssets/bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    font-size: 2.7rem;
-    background-color: black;
-    color: white;
-    padding-top: 6rem;
-    
-
+  text-decoration: underline;
+  color: blueviolet;
 }
-.ssss h1{
-    font-size: 5rem;
-
-}
-.section-1{
-    padding-top: 8rem;
-    font-size: 1.5rem;
-}
-li:hover{
-    /* text-decoration: underline; */
-    list-style: none;
-    text-decoration: none;
-    
-
-}
-.branding{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    line-height: 1.5rem;
-}      
-
-.head-font-inner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* width: 20%; */
-}
-.details{
-    text-align: end;
-} 
-.head-form{
-    color: black;
+.ssss {
+  background-image: url("../asssets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  padding: 5rem 0;
 }
 
+.ssss .first-header {
+  font-size: 2.4rem;
+}
+
+.hero-sub-heading {
+  padding-top: 0.8rem;
+  font-size: 1.3rem;
+  color: #b7b7b7;
+  line-height: 1.5;
+}
+
+.hero-details {
+  padding-top: 3rem;
+}
+
+.branding {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  line-height: 1.5;
+}
+
+.branding img {
+  width: 50px;
+}
+
+.enrolment-info {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+}
+
+.details {
+  text-align: center;
+}
+.head-form {
+  color: black;
+}
 .hero {
-    display: flex;
-}
-.ssss p{
-    padding-top: 1.5rem;
-    font-size: 2.3rem;
-    font-weight: 900;
-    color: whitesmoke
-}
-.head-font-inner{
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
+  display: flex;
 }
 
-.head-font{
-font-size: 2.3rem;
-padding-top: 8rem;
+.hero-details-heading {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.location,
+.enrolment-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.location i {
+  height: 18px;
+  color: #fff;
+}
+
+.enrolment-details {
+  text-align: right;
+}
+
+location.img {
+  color: white;
 }
 
 .form {
-    background-color: white;
-    padding: 2rem 2rem 5rem 2rem;
-    width: px;
+  background-color: white;
+  padding: 2rem 2rem;
+  width: 800px;
 }
 
 .form .head-form {
-    font-size: 3rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
 }
 
 .form-1 {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
 .form-1 div {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
 }
-
-.form-1 div input {
-    width: 47%;
+.form-1 div input{
+  padding: 20px;
+  font-size: small;
+  width: 46%;
+} 
+.form-1 input{
+  padding: 20px;
 }
-
-.form-1 input,
 .form-1 a {
-    padding: 1.8rem;
-    font-size: 2rem;
-    border-radius: 1px;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  border-radius: 1px;
+  border: 1px solid grey;
 }
 
 .form-1 a {
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    margin-top: 2rem;
-}
-.section-1{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    justify-content: space-center;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  margin-top: .5rem;
 }
 
-
-
-.section-1 img{
-    border-radius: 400em;
-}
-.section-1 p{
-    font-size: 3rem;
-    padding: 1rem;
-    
-    
-    
-}
-.section-1 span{
-    color: red;
+.form-1 span {
+  position: relative;
+  color: black;
 }
 
+#testimonial {
+  padding: 1rem 0;
+}
+
+.testimonial {
+  padding: 2rem 0;
+}
+
+.testimonial-box1 {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.5rem;
+}
+
+.testimonial-box2 {
+  padding: 0.5rem;
+}
+
+.testimonial-content {
+  width: 50%;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.testimonial-content img {
+  width: 120px;
+  border-radius: 50%;
+  margin-top: 5rem;
+}
+
+.testimonial-content .details {
+  text-transform: uppercase;
+}
+
+.testimonial-content .details .name {
+  font-weight: bold;
+}
+
+.testimonial-content .details .color {
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.rilwan {
+  margin: auto;
+}
+.benefits {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 4rem;
+  line-height: 1.5rem;
+}
+.line-heading {
+  margin-top: 8rem;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+.line {
+  content: "";
+  position: relative;
+  width: 58px;
+  height: 5px;
+  background-color: #007bff;
+
+  left: 48%;
+  top: 1rem;
+}
+
+.overview-content {
+  display: flex;
+}
+
+.overview-image img {
+  width: 100%;
+}
+
+.overview-box {
+  width: 50%;
+}
+.overview-content1 p {
+  line-height: 1.4rem;
+  padding: 10px 0;
+}
+.overview-content1 button {
+  color: white;
+  padding: 1rem;
+  border: none;
+  font-size: large;
+  border-radius: 6px;
+  background-color: #007bff;
+}
+.journey-heading h2 {
+  text-align: center;
+  margin-top: 4rem;
+}
+.words p {
+  width: 130%;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight:50;
+  font-size: large;
+
+}
+
+.journey-image img {
+  margin-bottom: 3rem;
+  width: 100%;
+}
+.concepts-content1 {
+  background-color: green;
+}
+.writings {
+  text-align: start;
+  width: 40%;
+}
+.writings h3 {
+  font-size: 1.3rem;
+}
+.concepts-content2 a {
+  background-color: blue;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: large;
+  text-align: start;
+}
+
+.concepts-content2 .my p {
+  text-align: start;
+  margin-bottom: 2rem;
+}
+/* student joourney */
+.grid-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.words {
+  margin-left: 20rem;
+  width: 40%;
+  margin-top: rem;
+  line-height: 1.5rem;
+  align-items: center;
+}
+
+.right h2{
+  margin-top: 1rem;
+}
+.right p{
+  line-height: 1.7rem;
+  margin-top: 1rem;
+}
 
 
+.image img {
+  width: 100%;
+  margin-top: 2rem;
+
+}
+
+.deep {
+  margin-top: 4rem;
+  width: 45%;
+}
+
+.realms h3 {
+  margin-top: 2rem;
+}
+
+.realms .button {
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  font-size: large;
+  border-radius: 6px;
+}
+
+.realms .div-5 {
+  margin-top: 2rem;
+}
+
+.depths {
+  width: 45%;
+  margin-top: 2rem;
+}
+.left h2{
+  margin-top: 1rem;
+}
+.left p{
+  line-height: 1.9rem;
+}
+.left{
+  width: 96%;
+}
+.text-4{
+  margin-bottom: .5rem;
+}
+
+/* end of student journey */
+
+/* facility section */
+.facility-heading{
+  margin-top: 15rem;
+}
+
+.facility .yung img {
+  width: 70%;
+  position: relative;
+}
+.line {
+  position: relative;
+  width: 58px;
+  height: 5px;
+  background-color: #007bff;
+
+  left: 48%;
+  top: 1rem;
+}
+.facility .glory {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px grey;
+  position: absolute;
+  left: 45rem;
+  top: 268rem;
+  width: 39%;
+  height: 30rem;
+  line-height: 23px;
+}
+
+.glory h2 {
+  margin-top: 3rem;
+  margin-left: 4rem;
+}
+.power {
+  margin-top: -2rem;
+}
+.glory p {
+  padding: 0.5rem;
+  margin-left: 3.5rem;
+  width: 70%;
+}
+.glory a {
+  color: blue;
+}
+.glory a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: black;
+}
+
+section.section-test {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: relative;
+  top: 20px;
+}
+.left {
+  height: 2rem;
+  line-height: 2rem;
+}
+
+section.section-test h2 {
+  display: flex;
+  justify-content: none;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+section.section-test p {
+  font-size: 14px;
+}
+
+section.section-test p.text-1 {
+  margin-top: 15px;
+}
+
+/* why choose tech studio academy */
+.tech-reason {
+  width: 220%;
+}
+.line {
+  margin-bottom: 4rem;
+  left: 48%;
+}
+.tech-reason p {
+  margin-top: 1rem;
+  line-height: 1.5rem;
+  marker-start: 2rem;
+}
+.tech-reason h2 {
+  font-size: 2rem;
+}
+.reason-img img {
+  width: 90%;
+}
+.Reason {
+  display: flex;
+}
+.Why-tech {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 17px;
+}
+.Reason-words {
+  margin-top: 5rem;
+}
+.reading {
+  font-weight: lighter;
+}
+
+.reading ul {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.reading ul li {
+  list-style-type: disc;
+  margin-bottom: 0.5rem;
+}
+
+/* career support */
+.tech-support {
+  text-align: center;
+}
+.line {
+  left: 48%;
+}
+.tech-support h2 {
+  font-size: 2rem;
+  margin-top: 7rem;
+}
+.supporting {
+  text-align: center;
+}
+.support-script {
+  margin-top: 0.9rem;
+}
+.supporting p {
+  width: 45%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+.support-img img {
+  width: 115%;
+}
+
+.support-script p strong {
+  font-size: 22px;
+}
+.support-script p {
+  line-height: 1.5rem;
+  width: 70%;
+  padding-top: 1rem;
+  margin: auto;
+}
+.support-content {
+  display: flex;
+  gap: 1rem;
+}
+.support-script button {
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  font-size: large;
+  border-radius: 6px;
+  border: none;
+  margin-left: 6.5rem;
+  margin-bottom: 10rem;
+}
+/* end of support section */
+
+.view {
+  margin-top: 2rem;
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  font-size: large;
+  border-radius: 6px;
+  border: none;
+  height: 9rem;
+  width: 65%;
+  margin: auto;
+  margin-bottom: 6rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 8rem;
+}
+.view p {
+  margin-top: 1rem;
+  width: 40%;
+  font-size: 23px;
+}
+.view button {
+  margin-top: 1rem;
+  background-color: white;
+  color: #007bff;
+  width: 30%;
+  height: 60%;
+  padding: -10px;
+  font-size: large;
+  border-radius: 8px;
+  border: none;
+}
+
+/* End of the view section */
+
+/* frequently asked questions section */
+.tech-questions h2 {
+  font-size: 2rem;
+}
+
+.tech-questions {
+  display: flex;
+  
+}
+.frequent-question{
+  text-align: center;
+
+}
+.love p{
+  width: 45%;
+  text-align: center;
+  margin: auto;
+  margin-top: -1rem;
+  margin-bottom: 5rem;
+}
+.tech-questions{
+  margin: auto;
+
+}
+.tech-questions h3{
+  margin: 1rem;
+}
+.tech-questions p{
+  line-height: 25px;
+  margin: 1rem;
+  width: 87%;
+}
+.rights ul li{
+  list-style-type: disc;
+  margin-left: 3.5rem;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.btn{
+  color: white;
+  padding: 1rem;
+  border: none;
+  font-size: large;
+  border-radius: 6px;
+  background-color: #007bff;
+  
+}
+button:hover{
+  background-color: rgb(8, 70, 124);
+  color: white;
+}
 
 
+/* Before the footer section */
+.inquiry{
+  background-color:#007bff;
+  height: 57rem;
+  margin-top: 6rem;
+  
+}
+.inherent{
+  display: flex;
+  gap:4rem;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, ;
+
+}
+.Tech{
+  margin-top: 7rem;
+  background-color:whitesmoke;
+  width: 45%;
+  height: 45rem;
+}
+.Tech h3{
+  margin-top: 1.5rem;
+}
+.Tech h2{
+  margin-top: 1rem;
+}
+.schedule{
+  margin-top: 7rem;
+  background-color:rgba(252, 14, 14, 0.884);
+  width: 30%;
+  height: 45rem;
+  
+}
+.duration p {
+  margin-top: 1rem;
+}
+.LEARN p{
+  margin-top: 1rem;
+  line-height: 1.6rem;
+}
+.Benefits{
+  margin-top: 1rem;
+  line-height: 1.6rem;
+}
+.Benefits ul li{
+  list-style-type: disc;
+  margin-left:  1rem;
+
+}
+
+/* lecture section */
+.lecture{
+  color: white;
+  
+}
+.lecture h4{
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+
+}
+.lecture ul{
+  margin-top: 1rem;
+}
+.lecture ul li{
+  list-style-type: disc;
+  font-size: 1.1rem;
+  margin-left: 2rem;
+  
+}
+.lecture p{
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+/* classes section */
+
+.classes{
+  color: white;
+}
+.classes h4{
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+.classes ul{
+  margin-top: 1rem;
+}
+.classes ul li{
+  list-style-type: disc;
+  font-size: 1.1rem;
+  margin-left: 2rem;
+  
+}
+.classes p{
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
 
 
+.virtual{
+  color: white;
+}
+.virtual h4{
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+}
+.virtual ul{
+  margin-top: 1rem;
+}
+.virtual ul li{
+  list-style-type: disc;
+  font-size: 1.1rem;
+  margin-left: 2rem;
+  
+}
+.virtual p{
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.btn{
+  border: none;
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 1rem;
 
+}
 
- 
+/* footer section */
+footer{
+  position: relative;
+  background-color: black;
+  height: 15rem;
+  
+}
+.closing img{
+  width: 2rem;
+  margin-top: 2rem;
+}
+.closing p{
+  color: #b7b7b7;
+}
+.techs{
+  position: absolute;
+  top: 3.5rem;
+  left: 7rem;
+}
+/* footer section 2 */
 
+.complete h3{
+  color: #b7b7b7;
+  margin-top: 3.5rem;
+}
+.complete input{
+  padding: 15px;
+  width: 150%;
+  
+}
+ .btn1{
+  padding: 17px;
+  width: 150%;
+  background-color: #007bff;
+  border-radius: 1px;
+  margin-top: .5rem;
+  border: none;
+}
 
+/* footer social images */
+.social{
+  margin-top: 3rem;
+}
+.social h3{
+  color: #b7b7b7;
+  margin-left: .7rem;
+}
+.social img{
+  width: 2rem;
+  background-color: #fff;
+  margin-left: 1rem;
+  margin-top: 1rem;
+
+}
+.finally{
+  display: flex;
+  gap: 12rem;
+}
